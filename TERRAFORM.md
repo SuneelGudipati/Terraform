@@ -1,7 +1,3 @@
-Creating comprehensive and clear documentation for a Terraform project is essential to make it easy for others (and your future self) to understand and use the code. Here's a template for how you can structure the documentation for a Terraform project on GitHub. This can go into the `README.md` file of your repository.
-
----
-
 ## Terraform Project Documentation
 
 ### Overview
@@ -205,11 +201,3 @@ output "instance_public_ip" {
 
 - **Insufficient permissions**: If Terraform encounters errors related to insufficient permissions, ensure that the IAM role or user has the appropriate permissions to create, read, modify, and delete the resources in question.
 - **State Locking**: If you're using a remote backend (e.g., S3), ensure that DynamoDB is configured for state locking to prevent race conditions.
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This `README.md` template will help other users understand the project's purpose, how to use it, and how to customize it for their specific needs. By providing clear instructions and explanations, you'll make the project much easier to work with and maintain.
