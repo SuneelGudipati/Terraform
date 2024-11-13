@@ -12,8 +12,9 @@ Terraform supports a wide variety of providers, such as AWS, Google Cloud, Micro
 
 ## Contents
 - [Benifits](tf_benefits.md)
-- [Vatibales](tf_variable.md)
+- [Varibales](tf_variable.md)
 - [Count and Count Index](tf_count_index.md)
+- [Conditions](conditions.tf)
 - [Configure gitignore](TF_GitIgnore.md)
 
 
